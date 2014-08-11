@@ -1,5 +1,6 @@
 #!/bin/bash
 
+set -x
 
 c=0
 echo "cp ./myvimrun ~/bin/myvimrun ?"
@@ -37,3 +38,5 @@ then
 fi
 
 echo "If you answered yes to all these questions, you can now use vimrun!"
+
+set +x
