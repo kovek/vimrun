@@ -4,6 +4,7 @@ vimrun
 Run scripts from vim in one keystroke.
 
 To install, run
+
 $ sh install.sh
 
 Run `vimloop` from the directory you'd like the scripts to be ran.
